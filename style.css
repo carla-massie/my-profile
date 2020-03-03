@@ -1,0 +1,103 @@
+/* Colors and fonts */
+
+body{
+	background-color: #3c4245;
+	color: #3c4245;
+	text-align: justify;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 100;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	font-family: 'Megrim', cursive;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+h1 {
+	color: #fafafa;
+	font-size: 115px;
+}
+h2, h3 {
+	color: black;
+	font-size: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/* Image */
+
+img{
+	width: 320px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px black;
+}
+
+
+/* Divs */
+
+.container{
+	background: #fafaf6;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.header{
+	text-align: center;
+	background: #3c4245;
+	color: #fafafa;
+	padding-bottom: 40px;
+}
+
+.card-white{
+	background: #fafafa;
+	width: 600px;
+	margin: 20px auto;
+	padding: 40px;
+	border-radius: 3px;
+	box-shadow: 0 15px 35px rgba(30, 30, 30, .2);
+	text-align: justify;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+	.card-white {
+		width: 280px;
+	}
+}
+
+
+/* Selectors */
+
+.list-inline{
+	list-style: none;
+	text-align: center;
+}
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #3c4245;
+}
+
+i:hover {
+	color: #c2cfd8;
+}
+
+.quote{
+	font-family: 'Nothing You Could Do', cursive;
+	letter-spacing: 1px;
+}
